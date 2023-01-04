@@ -167,3 +167,23 @@ npm start
 // May o nha
 - Install npm: npm install
 - Start app: npm start
+
+
+
+
+Data types:
+- Number
+- String
+- Array
+- Object 
+- Boolean
+- Undefind
+- Null
+
+
+Tham chiếu, Tham trị
+Copy: copy sâu, copy nông
+
+let new = JSON.parse(JSON.stringify(user)) 
+
+Thư viện là gì ? / Framework là gì ?
