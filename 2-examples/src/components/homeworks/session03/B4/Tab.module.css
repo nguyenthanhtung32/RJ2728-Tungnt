@@ -1,0 +1,106 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 5% 0% 0% 5%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: rgb(140, 140, 140);
+}
+
+.title {
+  padding-bottom: 3%;
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-weight: 300;
+}
+.titlee {
+  padding-bottom: 3%;
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-weight: 300;
+  margin-right: 81%;
+}
+
+.icon {
+  font-size: 64px;
+  padding-bottom: 15px;
+}
+
+.block_tabs {
+  display: flex;
+  width: 50%;
+}
+
+.block_tabs_vertical {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+.vertical_tab,
+.tabs {
+  padding: 15px;
+  color: rgb(135, 135, 135);
+  letter-spacing: 3px;
+  font-size: 15px;
+  font-weight: 600;
+  border: none;
+}
+
+.tabs {
+  width: 50%;
+}
+
+.text_tab {
+  border-bottom: 0.5px solid rgb(198, 198, 198);
+  background-color: white;
+}
+
+.button_tab {
+  background-color: rgb(238, 238, 238);
+}
+
+.icon_tab {
+  background: none;
+}
+
+.active_text_tabs {
+  border-bottom: 1px solid;
+  color: rgb(37, 160, 10);
+}
+
+.active_button_tabs {
+  color: white;
+  background-color: rgb(37, 160, 10);
+}
+
+.active_vertical_tabs {
+  margin: 10px 0px 10px 0px;
+  color: white;
+  background-color: rgb(37, 160, 10);
+}
+
+.active_icon_tabs {
+  color: rgb(37, 160, 10);
+}
+
+.content_tabs {
+  width: 70%;
+  padding: 20px;
+}
+
+.content_tabs_vertical {
+  width: 70%;
+  text-align: left;
+  padding-left: 20px;
+}
+
+.content {
+  padding: 20px;
+  display: none;
+}
+
+.active_content {
+  display: block;
+}
