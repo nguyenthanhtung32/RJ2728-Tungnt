@@ -1,0 +1,23 @@
+.w_100{
+    width: 150px;
+}
+.m_top_40{
+    margin-top: 40px;
+    color: white;
+    margin-left: 20px;
+}
+.color_white{
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+.m_bottom_50{
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.d_flex{
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+}

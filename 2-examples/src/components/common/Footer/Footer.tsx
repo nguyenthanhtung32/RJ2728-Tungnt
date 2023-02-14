@@ -1,15 +1,14 @@
+import styles from "./Footer.module.css"
 interface IProps {
-  title: string | number | undefined;
+  title: undefined;
 }
 
 const Footer: React.FC<IProps> = (props) => {
-  const { title } = props; 
-  
+  const { title } = props;
+
   return (
-    <footer className={`mt-5 w-100 text-center py-2`}>
-      This web page is a part of a demonstration of fluid web design made by
-      www.w3schools.com. Resize the browser window to see the content response
-      to the resizing.
+    <footer className={styles.neo}>
+      <a href="#">Contact Us!!!</a>
       {title}
     </footer>
   );

@@ -1,0 +1,48 @@
+.w_100{
+    width: 200px;
+    box-shadow: 5px 5px 5px rgb(220, 220, 220);
+}
+.m_bottom_20{
+    margin-bottom: 20px;
+    margin: 0px 10px 0px 10px;
+}
+.m_top_10{
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px 0px 10px;
+}
+.color_white{
+    color: #ebebe0;
+    display: flex;
+    justify-content: center;
+    margin: 0px 10px 0px 10px;
+}
+.d_flex{
+    display: flex;
+    margin: 0px 10px 0px 10px;
+    border: 1px solid #ccc;
+}
+.color_w{
+    color: white;
+    margin-left: 10px;
+}
+.m_left_auto{
+    margin-left: auto;
+    margin-bottom: 10px;
+}
+.m_left_20{
+    margin-left: 20px;
+    display: flex;
+   border: 1px #ccc solid;
+   
+}
+.bg_Phone, .bg_Email{
+    margin: 0px 10px 10px 10px;
+}
+.m_10{
+    margin-left: 5px;
+}
+.flex{
+    display: flex;
+    margin-left: 10px;
+}

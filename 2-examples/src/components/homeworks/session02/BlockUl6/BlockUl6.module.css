@@ -1,0 +1,24 @@
+.w_100{
+    width: 350px;
+    border: 1px solid #ccc;
+    box-shadow: 5px 5px 5px rgb(220, 220, 220);
+}
+.felx_ceter{
+    display: flex;
+    justify-content: center;
+}
+.m_top_40{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.m_left_30{
+    margin-left: 120px;
+    color: white;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+.d_flex{
+ margin-left: 20px;
+ margin-top: 20px;
+}
