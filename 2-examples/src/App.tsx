@@ -24,6 +24,7 @@ import BlockUI5 from "./components/homeworks/session02/BlockUl5/BlockUl5";
 import BlockUI6 from "./components/homeworks/session02/BlockUl6/BlockUl6";
 import BlockUI7 from "./components/homeworks/session02/BlockUl7/BlockUl7";
 import Accordions from "./components/homeworks/session03/B5/Accordions";
+import Gallery from "./components/homeworks/session03/B6/Gallery";
 
 function App() {
   const [isLogin, setIsLogin] = useState(false);
@@ -39,13 +40,13 @@ function App() {
     /*   <UserDetail/>  */
     /*  <UserList /> */
     /*  <UserForm /> */
-    <>
+    /*  <>
       {isLogin ? (
         <BaseWebRouter setIsLogin={setIsLogin} />
       ) : (
         <Login setIsLogin={setIsLogin} />
       )}
-    </>
+    </> */
     /*    <BlockUl1/> */
     /*  <BlockUI2/> */
     /*  <BlockUI3/> */
@@ -54,6 +55,7 @@ function App() {
     /*  <BlockUI6/> */
     /*  <BlockUI7/> */
     /*     <Accordions /> */
+    <Gallery />
   );
 }
 
